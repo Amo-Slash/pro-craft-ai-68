@@ -7,7 +7,6 @@ import { ResponsibleAI, ReviewNote } from "@/components/ResponsibleAI";
 import {
   EmptyState,
   ErrorBanner,
-  ErrorBanner as Banner,
   LoadingBlock,
   OutputBox,
   Panel,
@@ -216,5 +215,3 @@ function PlannerPage() {
     </AppShell>
   );
 }
-
-void Banner;
